@@ -22,6 +22,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_DEVICE := greatlte
 PRODUCT_NAME := omni_greatlte
-PRODUCT_MODEL := SM-N950F
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := Galaxy Note8
+PRODUCT_BRAND := Samsung
+PRODUCT_MANUFACTURER := Samsung
