@@ -1,3 +1,4 @@
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -64,4 +65,29 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Include
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/greatlte/include
+
+# SHRP flags
+LZMA_RAMDISK_TARGETS := recovery
+LZMA_COMPRESSION := -9
+SHRP_PATH := device/samsung/greatlte
+SHRP_MAINTAINER := corsicanu
+SHRP_DEVICE_CODE := greatlte
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_torch_flash
+SHRP_FONP_2 := 
+SHRP_FONP_3 := 
+SHRP_FLASH_MAX_BRIGHTNESS := 1
+SHRP_REC := /dev/block/platform/11120000.ufs/by-name/RECOVERY
+SHRP_AB := false
+SHRP_REC_TYPE := Normal
+SHRP_DEVICE_TYPE := A_Only
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_EXPRESS := true
+
 
